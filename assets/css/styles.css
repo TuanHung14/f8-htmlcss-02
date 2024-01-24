@@ -348,3 +348,71 @@ a{
     background-color: var(--primary-color);
     color: #fff;
 }
+/* feedback */
+.feedback{
+    margin-top: 135px;
+    background-color: #2E2100;
+    padding: 96px 0;
+}
+.feedback .feedback-list{
+    display: flex;
+    overflow: hidden;
+}
+.feedback .feedback-item{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-shrink: 0;
+}
+.feedback .feedback-item .info .avatart{
+    width: 72px;
+    height: 72px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.feedback .feedback-item .info .title{
+    margin-top: 18px;
+    font-family: var(--font-heading);
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 1.42;
+    color: #F7F7F7;
+}
+.feedback .feedback-item .info .desc{
+    margin-top: 4px;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.86;
+    color: #BFBCB2;
+}
+.feedback .feedback-item .info .dots{
+    margin-top: 28px;
+    display: flex;
+}
+.feedback .feedback-item .info .dot{
+    margin-right: 6px;
+    width: 6px;
+    height: 6px;
+    background-color: #634700;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.feedback .feedback-item .info .dot.active{
+    background-color: #FFB900;
+    cursor: default;
+}
+.feedback .feedback-item .content{
+    width: 66%;
+    /* position: relative; */
+}
+.feedback .feedback-item .content blockquote{
+    /* position: absolute; */
+    /* left: 30px;
+    top: 28px; */
+    margin-left: 30px;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 2.6rem;
+    line-height: 4rem;
+    color: #fff;
+}
